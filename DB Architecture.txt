@@ -1,0 +1,10 @@
+Table: user
+Columns: 
+		password (non-encrypted) (nvarchar)
+		username (nvarchar) (what user chooses) [PK]
+		email (nvarchar)
+		firstname (nvarchar)
+		lastname(nvarchar)
+		accountstatus (integer) [0 - inactive, 1 - active]
+		spare[1-6] (nvarchar)
+		creationdate (datetime)
