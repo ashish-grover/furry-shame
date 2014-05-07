@@ -1,3 +1,17 @@
-.jumbo h1 {
-	color: red;
+.jumbo {
+	height: 500px;
+	background-color: #EFEFEF;	
+}
+
+.jumbo .container {
+	position: relative;
+	top:100px;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	padding: 5px;
 }
